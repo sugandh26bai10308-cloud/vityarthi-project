@@ -1,6 +1,6 @@
-Library Book Management System
+#Library Book Management System
 
-Problem Statement
+##Problem Statement
 
 A minor library requires an easy-to-use system to manage its limited collection of books. The librarian should be able to add books, track the total and available number of copies, lend books to patrons, accept returns, and view the inventory of the library. The system will provide a simple command-line interface to perform these operations.
 
@@ -22,7 +22,7 @@ Designed as a single-user system; simultaneous access by multiple users is not s
 
 No Graphical User Interface or external database is required.
 
-Target Users
+#Target Users
 
 Small library staff or student librarian.
 
