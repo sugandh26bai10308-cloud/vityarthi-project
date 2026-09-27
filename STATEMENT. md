@@ -1,19 +1,43 @@
-## Problem Statement
-A small library needs a simple system to manage its books. The user (librarian) wants to add books, track copies, lend books to patrons, accept returns, and view current stock.
+Library Book Management System
 
-## Scope of the Project
-- Console-based management of book inventory (no user accounts)
-- Manage book title, author, available copies, and total copies
-- Suitable for small college or community libraries
-- Not designed for simultaneous multi-user access
+Problem Statement
 
-## Target Users
-- Small library staff or student librarians
-- Beginners learning Python and basic software design
+A minor library requires an easy-to-use system to manage its limited collection of books. The librarian should be able to add books, track the total and available number of copies, lend books to patrons, accept returns, and view the inventory of the library. The system will provide a simple command-line interface to perform these operations.
 
-## High-level Features
-- Add Book
-- Borrow Book
-- Return Book
-- List Books
-- Exit Application
+Scope of the Project
+
+Console-based management of library book inventory.
+
+No user account or authentication system is needed.
+
+Inventory includes book’s title, author, number of available and total copies.
+
+Librarians can add a book or increase the number of copies of an existing book. The book can be borrowed if available copies are greater than zero. The book can be returned if it has been borrowed.
+
+Current inventory of books in the library can be viewed.
+
+Applicable to small-scale college, school, or community libraries.
+
+Designed as a single-user system; simultaneous access by multiple users is not supported.
+
+No Graphical User Interface or external database is required.
+
+Target Users
+
+Small library staff or student librarian.
+
+College or community library administrators.
+
+Python and Software Designing learners.
+
+High-Level Features
+
+Add Book – To add a book to the collection with the number of copies or update the existing book’s copies.
+
+Borrow Book – To borrow a book from the library if it’s available (has copies).
+
+Return Book – To return an already borrowed book.
+
+List Books – View the library’s current inventory of books with the author’s name, number of available and total copies.
+
+Exit – To quit the application.
