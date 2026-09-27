@@ -2,31 +2,25 @@
 
 ## Problem Statement
 
-A small library needs a simple system to manage its books. The librarian should be able to add books, track copies, lend books to patrons, accept returns, and view the current stock.
+A small library needs a simple system to manage its books. The user (librarian) wants to add books, track copies, lend books to patrons, accept returns, and view current stock.
 
 ## Scope of the Project
 
 - Console-based management of book inventory
-- No user accounts required
+- No user accounts
 - Manage book title, author, available copies, and total copies
-- Add new books or increase copies of existing books
-- Borrow books when copies are available
-- Return borrowed books
-- View the current inventory
-- Suitable for small college, school, or community libraries
-- Designed for single-user access
-- No GUI or external database required
+- Suitable for small college or community libraries
+- Not designed for simultaneous multi-user access
 
 ## Target Users
 
 - Small library staff or student librarians
-- College or community library administrators
 - Beginners learning Python and basic software design
 
 ## High-Level Features
 
-1. **Add Book** – Add a new book or increase the copies of an existing book.
-2. **Borrow Book** – Borrow a book if at least one copy is available.
-3. **Return Book** – Return a previously borrowed book.
-4. **List Books** – View all books with their author, available copies, and total copies.
-5. **Exit Application** – Exit the command-line application.
+- **Add Book** – Add a new book or increase copies of an existing book.
+- **Borrow Book** – Borrow a book when copies are available.
+- **Return Book** – Return a borrowed book.
+- **List Books** – View all books with author and stock details.
+- **Exit Application** – Exit the program.
