@@ -88,25 +88,39 @@ list → Display all books and their stock details
 quit → Exit the application
 
 Instructions for Testing
+Step 1: Start the Application
 
-Run the application using:
+Run:
 
 python sourcecode.py
 
+Step 2: Add a Book
 
-Test the add command by entering a book title, author, and number of copies.
+Use the add command and enter the book title, author, and number of copies.
 
-Test the list command to verify that the book has been added.
+Step 3: List Books
 
-Test the borrow command using the title of an available book.
+Use the list command to verify that the book has been added successfully.
 
-Test the list command again to verify that the available copy count has decreased.
+Step 4: Borrow a Book
 
-Test the return command using the same book title.
+Use the borrow command and enter the title of an available book.
 
-Test the list command again to verify that the available copy count has increased.
+Step 5: Check Available Copies
 
-Use the quit command to exit the application.
+Use the list command again to verify that the available copy count has decreased.
+
+Step 6: Return a Book
+
+Use the return command and enter the title of the borrowed book.
+
+Step 7: Verify the Return
+
+Use the list command again to verify that the available copy count has increased.
+
+Step 8: Exit the Application
+
+Use the quit command to exit the program.
 
 Example
 Library Book Management System
